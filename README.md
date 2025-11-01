@@ -1,39 +1,42 @@
-#  SPA Task Manager
+# Real-Time Single Page Application (SPA) — User Dashboard
 
-A **Single Page Application (SPA)** for managing tasks with **HTML, CSS, and JavaScript**.  
-Features **gradient background**, **glassmorphism design**, and **LocalStorage persistence**.
+## Overview
+This project is a Real-Time Single Page Application built using **AngularJS**, **HTML**, and **CSS**.  
+It allows users to **view, edit, and manage profile details** dynamically without reloading the page.
 
 ---
 
 ## Features
-
-- Add tasks with **title & description**  
-- Mark tasks as **completed**  
-- Delete tasks from active or completed lists  
-- SPA navigation: **Home | Add Task | Completed**  
-- Modern UI with **gradient + glassmorphism**  
-- Fully responsive on mobile & desktop  
-- Tasks saved in **LocalStorage**  
+- Real-time updates using `$interval`
+- Edit and view profile instantly
+- Data saved in `localStorage`
+- Smooth navigation with `ngRoute`
+- Responsive design for all devices
+- Fully client-side (no backend)
 
 ---
 
-## Team Members
-
-- Nithiya M S  
-- Parvathiy A R  
-- Melisha S  
-- Fathima Saheera J  
-
----
-
-## How to Run
-
-1. Open `index.html` in a **modern web browser**  
-2. Start managing your tasks instantly  
+## Technologies Used
+- HTML5  
+- CSS3 (inline styles)  
+- AngularJS 1.8.2  
+- JavaScript (inline scripts)  
+- GitHub Pages for deployment
 
 ---
 
-## Tech Stack
+## How It Works
+1. **Home View:** Displays profile info and live “Last Active” time.  
+2. **Edit Profile:** Update user data (Name, Email, Age, Status).  
+3. **View Profile:** Shows updated profile details.  
+4. **Local Storage:** Saves user data even after reload.  
 
-- HTML5, CSS3, JavaScript (ES6)  
-- LocalStorage for data persistence  
+---
+
+
+## Deployment
+Live Project:  
+🔗 [https://saheera-006.github.io/Single-Page-Application/](https://saheera-006.github.io/Single-Page-Application/)
+
+Repository:  
+💻 [https://github.com/Saheera-006/Single-Page-Application](https://github.com/Saheera-006/Single-Page-Application)
